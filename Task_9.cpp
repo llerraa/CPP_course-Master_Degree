@@ -11,9 +11,13 @@ struct Account {
 void deposit(Account* acc, double amount) { // Account* acc = Account* ptr_account1   =>  тоже указывает на адрес структуры account1
     // cout << "(*acc).balance = " << (*acc).balance << endl;
     // cout << "acc = " << acc << endl;
-    (*acc).balance += amount; // * значение указателя
-    cout << "значение баланса для аккаунта " << (*acc).id << " увеличено на " << amount << endl;
-    cout << "нынешнее значение баланса = " << (*acc).balance << endl;
+    if (amount > 0) {
+            (*acc).balance += amount; // * значение указателя
+            cout << "значение баланса для аккаунта " << (*acc).id << " увеличено на " << amount << endl;
+            cout << "нынешнее значение баланса = " << (*acc).balance << endl;
+        } else {
+            cout << "ошибка: сумма депозита должна быть положительной" << endl;
+        }
 }
 
 // уменьшает баланс счета на указанную сумму, используя ссылку. 
