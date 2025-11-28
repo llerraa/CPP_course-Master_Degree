@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="include\account">
+      <UniqueIdentifier>{29b7658d-bd85-418b-af36-74ed09b2f4ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\transaction">
+      <UniqueIdentifier>{551ed65f-94df-4bff-8b0a-042e284ec579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\bank">
+      <UniqueIdentifier>{ec37d794-6694-426b-a49c-2f7d0499153b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\account">
+      <UniqueIdentifier>{5996ff90-1368-4542-adbd-d55be43dae41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\transaction">
+      <UniqueIdentifier>{41d849d8-65b8-4eab-aad1-4338921e2a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\bank">
+      <UniqueIdentifier>{108b9b2f-81ba-4fa6-b049-66acebeb0804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="docs">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src\client">
+      <UniqueIdentifier>{3b31ef11-c743-4d15-94cb-b999a7584370}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\client">
+      <UniqueIdentifier>{eaaccc14-2f03-4d86-9985-49efccd61659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\menu">
+      <UniqueIdentifier>{afdd6216-a03a-4ea6-be29-c5d54786a4ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\menu">
+      <UniqueIdentifier>{ec175942-6992-4348-ac70-57e1208ec106}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="Bank.cpp">
+      <Filter>src\bank</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>src\transaction</Filter>
+    </ClCompile>
+    <ClCompile Include="Account.cpp">
+      <Filter>src\account</Filter>
+    </ClCompile>
+    <ClCompile Include="SavingsAccount.cpp">
+      <Filter>src\account</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckingAccount.cpp">
+      <Filter>src\account</Filter>
+    </ClCompile>
+    <ClCompile Include="Client.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Structs.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="PremiumClient.cpp">
+      <Filter>src\client</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>src\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bank.h">
+      <Filter>include\bank</Filter>
+    </ClInclude>
+    <ClInclude Include="Account.h">
+      <Filter>include\account</Filter>
+    </ClInclude>
+    <ClInclude Include="SavingsAccount.h">
+      <Filter>include\account</Filter>
+    </ClInclude>
+    <ClInclude Include="Transaction.h">
+      <Filter>include\transaction</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckingAccount.h">
+      <Filter>include\account</Filter>
+    </ClInclude>
+    <ClInclude Include="Client.h">
+      <Filter>include\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Structs.h">
+      <Filter>include\client</Filter>
+    </ClInclude>
+    <ClInclude Include="PremiumClient.h">
+      <Filter>include\client</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>include\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
