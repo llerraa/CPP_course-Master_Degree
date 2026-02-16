@@ -1,3 +1,0 @@
-C:/Users/пк/source/repos/BankingSystem/out/build/x64-Debug/CMakeFiles/BankingSystem.dir
-C:/Users/пк/source/repos/BankingSystem/out/build/x64-Debug/CMakeFiles/edit_cache.dir
-C:/Users/пк/source/repos/BankingSystem/out/build/x64-Debug/CMakeFiles/rebuild_cache.dir
